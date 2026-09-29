@@ -1,0 +1,10 @@
+# 训练与推理所需的直接依赖
+#
+# 如果要跑 GPU 版本，按显卡对应的 CUDA 版本安装 torch：
+#   pip install torch --index-url https://download.pytorch.org/whl/cu124
+
+torch>=2.0
+numpy>=1.24
+Pillow>=10.0
+matplotlib>=3.7
+scikit-image>=0.22

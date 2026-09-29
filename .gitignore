@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# 数据集：体积大且不随仓库分发
+data/
+*.jpg
+*.jpeg
+*.png
+!assets/*.png
+
+# 训练产物
+checkpoints/
+reports/
+runs/
+logs/
+
+# IDE 与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
